@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+h1 {
+    color: rgb(218, 44, 148);
+    margin-left: 20px;
+}
+
+body {
+    background-color: rgb(249, 179, 221);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td, .table th {
+    text-align: center;
+    border: 1px dotted rgb(218, 44, 148);
+    border-radius: 3px;
+}
+.table td:hover {
+    background-color: rgb(218, 44, 148);
+    opacity: 70%;
+    font-size: 22px;
+    transition: all 0.25s;
+}
+
+.table th {
+    background-color: rgb(169, 5, 125);
+    opacity: 70%;
+}
+
+img {
+    border: 3px solid  rgb(218, 44, 148);
+    box-shadow: 8px 8px 22px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    margin-left: 20px;
+    height: 200px;
+
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 24px;
+    color:  rgb(250, 79, 181);
+}
+
+.card {
+    background-color: rgb(169, 5, 125);
+    border: 15px solid rgb(169, 5, 125);
+    color: rgb(234, 162, 206);
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+a {
+    color: rgb(234, 162, 206);
+    text-decoration: none;
+    transition: all 0.25s;
+
+}
+
+a:hover {
+    color: black;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(246, 243, 243);
+}
+
+a:visited {
+    color: rgb(74, 17, 56);
+}
+
+.btn {
+    color:  rgb(169, 5, 125);
+    background-color: rgb(74, 17, 56);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    font-size: 15px;
+    opacity: 80%;
+}
+
+
+.form h3{
+    text-align: center;
+    margin: auto;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-row .form-group {
+    display: inline-block;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.top {
+    display: flex;
+}
+
+.top .card {
+    margin-right: 25px;
+}
+
